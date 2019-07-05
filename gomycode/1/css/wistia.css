@@ -1,0 +1,17 @@
+*
+
+.boum{
+   display: flex;
+   align-items: flex-start;
+   flex-direction: row;
+}
+.biwa{
+    display: flex;
+   margin-left: 600px;
+}
+.lol{
+   margin-left: 25px
+}
+body{
+  background-color: pink  
+}

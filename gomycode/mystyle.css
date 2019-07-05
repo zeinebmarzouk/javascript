@@ -1,0 +1,47 @@
+h1 {
+    
+    color: white;
+    margin-top: 100px;
+    margin-left: 25px;
+    height: 100%;
+    width: 100%; 
+}
+.cover{
+    background-image: url("http://fr.web.img2.acsta.net/r_640_360/newsv7/18/06/05/08/27/1673711.jpg");
+    height: 250px;
+
+}
+
+h2 {
+    margin-left: 100px; 
+}
+
+div:hover {
+    border: 10px;
+    border-color: black;
+        }
+
+.c1 {
+    display: inline-block;
+
+}
+
+.c2 {
+    background-color: tan;
+    width:45%;
+    height:400px;
+    border:1px solid black;
+    display:inline-block;
+}
+
+.c3 {
+    color:white;
+    background-color: black;
+    width:45%;
+    height:400px;
+    margin-right: 10px;
+    border:1px solid black;
+    display:inline-block;
+
+   
+}

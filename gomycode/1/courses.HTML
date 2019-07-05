@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <title></title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<body>
+
+      <center>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.HTML">Contact</a></li>
+        <li><a href="courses.HTML">Courses</a></li>
+        </ul>
+        <form>
+            <div class="h3">
+             <h1>courses</h1>
+            </div>
+        </form>
+        <br><br><br>
+        <div>
+            <div class="photo1 in">
+               <a href="#ex1" rel="modal:open"> <button>view more</button></a>
+            </div>
+
+            <div class="photo2 in">
+               <a href="#ex1" rel="modal:open"> <button>view more</button></a>
+            </div>
+
+            <div class="photo3 in">
+               <a href="#ex1" rel="modal:open"> <button>view more</button></a>
+            </div>
+         </div>
+         <br><br><br>
+         <div>
+            <div class="photo4 in">
+               <a href="#ex1" rel="modal:open"> <button>view more</button></a>
+            </div>
+
+            <div class="photo5 in">
+               <a href="#ex1" rel="modal:open"> <button>view more</button></a>
+            </div>
+           
+            <div class="photo6 in">
+               <a href="#ex1" rel="modal:open"><button>view more</button></a>
+            </div> 
+         </div>
+         <br><br><br>
+         <div>
+            <div class="photo7 in">
+               <a href="#ex1" rel="modal:open"><button>view more</button></a>
+            </div>
+
+            <div class="photo8 in">
+               <a href="#ex1" rel="modal:open"> <button>view more</button></a>
+            </div>
+
+            <div class="photo9 in">
+               <a href="#ex1" rel="modal:open"><button>view more</button></a>
+             </div>
+            </div>
+      
+         <form>
+            <h2>feedback</h2>
+            <button onclick="bold1()">B</button>
+            <button onclick="bold2()">I</button>
+            <button onclick="bold3()">Underline</button>
+            <select id="taille" onclick="change()">
+                <option>20px</option>
+                <option>40px</option>
+                <option>60px</option>
+            </select>
+            <select id="need" onclick="newFont()">
+            <option>Arial</option>
+            <option>Times New Roman</option>
+            </select> 
+            <br>
+            <textarea cols="20" row="40" id="text"></textarea>
+
+         <div id="ex1" class="modal">
+               <p>This is GoMyCode Track. 
+                  Each track has its own goal. 
+                  By adopting this track, you chose your own goal.</p>
+               <a href="#" rel="modal:close">Close</a>
+         </div>
+      </center>
+</body>
+<script src="css/gomycode.js"></script>
+</html>
